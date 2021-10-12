@@ -1,0 +1,12 @@
+### GET posts - get all the created posts
+GET http://127.0.0.1:4000/posts
+
+### POST posts - create posts
+
+
+POST http://127.0.0.1:4000/posts
+Content-Type: application/json
+
+{
+    "title": "fourth test"
+}
